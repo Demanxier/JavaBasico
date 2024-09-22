@@ -48,21 +48,25 @@ Uma instância de uma classe é um novo objeto criado dessa classe, com o operad
 Seguem alguns exemplos de como as linguagens de programação podem ser classificadas:
 
 🔺 Nível de abstração:
+
 Baixo Nível: Assembly
 Médio Nível: C, C++, D, Objective C, etc.
 Alto Nível: Java, C#, PHP, Javascript, etc.
 Altíssimo Nível: Python, Ruby, Elixir, etc.
 
 🔺 Paradigma de programação:
+
 Programação Estruturada: C, Pascal, Ada, etc.
 Programação Orientada a Objetos: Java, C#, C++, Objective C, D, etc.
 Programação Funcional: Lisp, Scheme, Erlang, Elixir, etc.
 
 🔺 Linguagens classificadas pela arquitetura da aplicação:
+
 Desktop: C, C++, Object Pascal, Java, etc.
 Web: PHP, Ruby, Javascript, Java, etc.
 
 🔺 Tipo de execução:
+
 Linguagens compiladas: C, C++, Pascal, D, GO, etc.
 Linguagens Interpretadas: Python, Ruby, PHP, Javascript, etc.
 Linguagens Hibridas: Java, Erlang, Elixir, etc.
@@ -72,11 +76,14 @@ Linguagens Hibridas: Java, Erlang, Elixir, etc.
 PARADIGMAS PRINCIPAIS e SEUS SUBPARADIGMAS
 
 🔸 1. Paradigma Imperativo
+
 Neste paradigma, o programa descreve o processamento necessário para solucionar o problema. Assim, o paradigma imperativo é caracterizado por execução sequencial de instruções, pelo uso de variáveis que representam posições de memória e pelo uso de instruções de atribuição que alteram os valores dessas variáveis.
 Vejamos alguns Subparadigmas do Paradigma Imperativo e exemplos linguagens de programação que adotam esses subparadigmas.
 
 🔸 1.1 Paradigma estruturado: ALGOL 58 e ALGOL 60
+
 🔸 1.2 Paradigma concorrente: Java e Ada
+
 🔸 1.3 Paradigma Orientado a Objetos: Smalltalk e Java
 
 🔹 2. Paradigma Declarativo

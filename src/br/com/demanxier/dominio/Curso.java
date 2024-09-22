@@ -1,24 +1,20 @@
 package br.com.demanxier.dominio;
 
-public class Curso {
-    private String titulo;
-    private String descricao;
+public class Curso extends Conteudo {
     private int cargaHoraria;
 
-    public String getTitulo() {
-        return titulo;
+    @Override
+    public double calcularXp(){
+        return XP_PADRAO  * cargaHoraria;
     }
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
+    @Override
+    public String toString() {
+        return "Curso{" +
+                "titulo='" + getTitulo() + '\'' +
+                ", descricao='" + getDescricao() + '\'' +
+                "cargaHoraria=" + cargaHoraria +
+                '}';
     }
 
     public int getCargaHoraria() {
@@ -29,12 +25,4 @@ public class Curso {
         this.cargaHoraria = cargaHoraria;
     }
 
-    @Override
-    public String toString() {
-        return "Curso{" +
-                "titulo='" + titulo + '\'' +
-                ", descricao='" + descricao + '\'' +
-                ", cargaHoraria=" + cargaHoraria +
-                '}';
-    }
 }
